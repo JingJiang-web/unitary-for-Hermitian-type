@@ -69,10 +69,10 @@ if coxeter_type == "E6":
 
     if k == 0:
         if (inner_product == 11):
-            print(f"-wrho-rho is {result - rho_e6}")
+            print(f"-wrho-rho = {(result-rho_e6).tolist()}")
             print(f"L_w is unitary")
         else:
-            print(f"-wrho-rho is {result-rho_e6}")
+            print(f"-wrho-rho = {(result-rho_e6).tolist()}")
             print(f"L_w is not unitary")
 
 
@@ -268,6 +268,7 @@ elif coxeter_type == "E7":
         print(f"-wrho-rho = {(result-rho_e7).tolist()}")
         #print(f"lambda_0 is {lambda_0_e7}")
         print(f"L_w is not unitary")
+
 
 
 
